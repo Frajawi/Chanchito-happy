@@ -1,0 +1,71 @@
+.formulario{
+    display: block;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    background: -webkit-linear-gradient(to right, #4dedef, #ac32cd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4dedef, #ac32cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #e7e7e7;
+    box-shadow: 0 1px 1px rgb(0 0 0/10),0 8px 16px rgba(230, 225, 225, 0.1);
+}
+
+div.formulario > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow:5cm gray;
+    font-size: 30px;
+}
+
+.label{
+    text-align: center;
+}
+
+form{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form > div.acceder > input{
+    text-align: center;
+}
+form> div.recordar{
+    text-align: center;
+}
+
+input*{
+    display: block;
+    text-align: center;
+}
+
+form > div.acceder {
+    text-align: center;
+}
+
+form > input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: solid 1px #c7c8cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+form > div.registrar{
+    text-align: center;
+  
+}
+
+form > div.acceder > input{
+    border-color: #e7e7e7;
+}
+
+body {
+    background-color: #DBF9FC;
+}
+.fondo{
+    background-image: url('./../img/arte2p.jpg');
+    background-size: contain;
+}
