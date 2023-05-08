@@ -1,7 +1,6 @@
 .registro {
-    display: block;
-    max-width: 450px;
     margin: 0 auto;
+    max-width: 450px;
     padding: 50px;
     background: -webkit-linear-gradient(to right, #4dedef, #ac32cd); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4dedef, #ac32cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
