@@ -30,8 +30,6 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Escultura</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Dibujo</a></li>
-                  <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Grabados</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Todas las Especialidades </a></li>
@@ -71,6 +69,10 @@
                   <li><a class="dropdown-item" href="#">Todas las Colecciones</a></li>
                 </ul>
               </li>
+              <form class="d-flex" role="buscar">
+                <input class="form-control me-2" type="search" placeholder="busqueda" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
       
         </ul>
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
@@ -103,18 +105,18 @@
       </div>
     </div>
   </nav>
+  <hr>
               <div class="formulario">
-                <img src="">
                 <h1>Inicio de sesión</h1>
                 <form method="post">
                     <label>Nombre de usuario</label>
-                        <input type="text" required>
+                        <input type="text" class="estilo" required>
                         <br>
                         <label> Contraseña </label>
-                        <input type="password" required>
+                        <input type="password" class="estilo" required>
                     <div class="recordar">¿Olvidó su contraseña?</div>
                     <div class="acceder">
-                    <input type="submit" value="iniciar">
+                    <input type="submit" class="boton" value="iniciar">
                  </div>
                     <div class="registrar">
                         <p>¿No tienes cuenta? <a href="registro.html"> Regístrate aquí</a></p>

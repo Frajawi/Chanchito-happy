@@ -4,8 +4,10 @@
     padding: 1em;
     border: 1px solid #34323d;
     background: transparent;
+    backdrop-filter: blur(3px);
     border-radius: 8px;
     box-shadow: 0 1px 1px rgb(0 0 0/10),0 8px 16px rgba(230, 225, 225, 0.1);
+    justify-content: flex-end;
   }
   
   ul {
@@ -27,8 +29,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
-  input,
-  textarea {
+.estilo {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -40,9 +41,17 @@
     background: transparent;
   }
   
-  input:focus,
-  textarea:focus {
+.estilo{
     border-color: #000;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #2f002c;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #2f002c;
+    outline: none;
+    background: transparent;
   }
   
   textarea {
@@ -50,15 +59,23 @@
     height: 5em;
   }
   
-  .button {
-    padding-left: 90px;
-  }
+
   
-  button {
-    margin-left: .5em;
-    box-shadow: #000 1px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 5px;
-  }
   
+  .fondo{
+    background-image: url('./../img/arte1p.jpg');
+    background-size: full;
+}
+
+.botont{
+  background: transparent;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.estilo{
+  color:#000;
+  width: auto;
+}
